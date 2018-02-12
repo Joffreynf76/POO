@@ -56,6 +56,14 @@ class Ecole
         return $this->DirecteurEcole;
     }
 
+    /**
+     * @return array
+     */
+    public function getClasses(): array
+    {
+        return $this->Classes;
+    }
+
 
 
 
@@ -82,6 +90,15 @@ class Ecole
     public function setDirecteurEcole($DirecteurEcole): void
     {
         $this->DirecteurEcole = $DirecteurEcole;
+    }
+
+
+    /**
+     * @param array $Classes
+     */
+    public function AjouterClasse(Classes $Classes): void
+    {
+        $this->Classes[] = $Classes;
     }
 }
 

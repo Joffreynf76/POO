@@ -25,16 +25,53 @@ $Ecole = new Ecole (
 $Ecole->setNomEcole('NFactory');
 echo '<br>'.$Ecole->getNomEcole();
 
-$Classes = new Classes(
-    'Développeur Web'
+$Classes1 = new Classes(
+    'Back'
 );
 
-echo '<br>'.$Classes->getNomClasse();
+$Classes2 = new Classes('Front');
 
-$Eleves = new Eleves(
+
+
+$Eleves1 = new Eleves(
     'Lhermitte',
     'Joffrey',
-    '20'
+    20
 );
 
-echo '<br>'.$Eleves->getPrenom();
+$Eleves2 = new Eleves('Revert','Romain',26);
+$Classes1->AjouterEleve($Eleves1);
+$Classes2->AjouterEleve($Eleves2);
+
+echo '<br>'.$Classes1->getNomClasse();
+echo '<br>'.$Eleves1->getPrenom();
+
+echo '<pre>';
+    print_r($Classes1);
+    echo '</pre>';
+
+echo '<pre>';
+print_r($Classes2);
+echo '</pre>';
+
+$Ecole->AjouterClasse($Classes1);
+$Ecole->AjouterClasse($Classes2);
+
+echo '<pre>';
+print_r($Ecole);
+echo '</pre>';
+
+echo '<ol>';
+$lesClasses= $Ecole ->getClasses();
+
+foreach ($lesClasses as $objClasse){
+    echo '<li>'.$objClasse->getNomClasse().'</li>';
+    echo '<ul>';
+    $lesEtudiants = $objClasse->getEleves();
+        foreach($lesEtudiants as $objEtudiant){
+            echo '<li>'.$objEtudiant->getNomComplet().'</li>';
+
+        }
+        echo '</ul>';
+}
+echo '</ol>';

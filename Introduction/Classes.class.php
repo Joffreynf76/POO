@@ -28,6 +28,14 @@ class Classes
         return $this->NomClasse;
     }
 
+    /**
+     * @return array
+     */
+    public function getEleves(): array
+    {
+        return $this->Eleves;
+    }
+
 
     /**
      * @param mixed $NomClasse
@@ -35,5 +43,13 @@ class Classes
     public function setNomClasse($NomClasse): void
     {
         $this->NomClasse = $NomClasse;
+    }
+
+    /**
+     * @param array $Eleves
+     */
+    public function AjouterEleve(Eleves $Eleves): void
+    {
+        $this->Eleves[] = $Eleves;
     }
 }

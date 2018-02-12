@@ -15,7 +15,12 @@ class Ecole
 
     # Afin de pouvoir attribuer une valeur à mes differenetes variables,
     # je vais mettre en place un constructeur.
-
+    /**
+     * Ecole constructor.
+     * @param $NomEcole
+     * @param $AdresseEcole
+     * @param $DirecteurEcole
+     */
     public function __construct(
         $NomEcole,
         $AdresseEcole,
@@ -26,4 +31,57 @@ class Ecole
         $this->AdresseEcole   = $AdresseEcole;
         $this->DirecteurEcole = $DirecteurEcole;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getNomEcole()
+    {
+        return $this->NomEcole;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAdresseEcole()
+    {
+        return $this->AdresseEcole;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDirecteurEcole()
+    {
+        return $this->DirecteurEcole;
+    }
+
+
+
+
+
+    /**
+     * @param mixed $NomEcole
+     */
+    public function setNomEcole($NomEcole): void
+    {
+        $this->NomEcole = $NomEcole;
+    }
+
+    /**
+     * @param mixed $AdresseEcole
+     */
+    public function setAdresseEcole($AdresseEcole): void
+    {
+        $this->AdresseEcole = $AdresseEcole;
+    }
+
+    /**
+     * @param mixed $DirecteurEcole
+     */
+    public function setDirecteurEcole($DirecteurEcole): void
+    {
+        $this->DirecteurEcole = $DirecteurEcole;
+    }
 }
+

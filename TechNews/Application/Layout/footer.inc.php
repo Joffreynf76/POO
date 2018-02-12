@@ -7,7 +7,7 @@
             <div class="col-md-4  col-sm-4 col-xs-12">
                 <div class="about">
                     <a href="#" class="logo">
-                        <img alt="" src="images/logo_footer.png" />
+                        <img alt="" src="<?=PATH_PUBLIC?>/images/logo_footer.png" />
                     </a>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
                 </div>
@@ -86,10 +86,10 @@
 </footer>
 </div>
 <!--scrip file-->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
+<script src="<?=PATH_PUBLIC?>/js/jquery.min.js"></script>
+<script src="<?=PATH_PUBLIC?>/js/bootstrap.js"></script>
+<script src="<?=PATH_PUBLIC?>/js/owl.carousel.min.js"></script>
+<script src="<?=PATH_PUBLIC?>/js/main.js"></script>
 </body>
 
 </html>

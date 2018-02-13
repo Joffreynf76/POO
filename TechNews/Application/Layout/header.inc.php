@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="congnd91">
-    <title>TEZ NEWS | Magagize & News HTML Template</title>
+    <title>TECH NEWS | Magazine & News HTML Template</title>
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?= PATH_PUBLIC?>/images/favicon.png">
     <link rel="apple-touch-icon" href="<?= PATH_PUBLIC?>/images/apple-touch-icon-57x57.png">

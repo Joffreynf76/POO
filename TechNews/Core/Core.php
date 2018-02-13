@@ -2,7 +2,9 @@
 
 namespace Core;
 
-class Core
+use Core\Controller\AppController;
+
+class Core extends AppController
 {
    public function __construct($params)
    {
@@ -19,10 +21,10 @@ class Core
                 $obj->$action();
 
            }else {
-               echo "<h1>Cette action n'existe pas </h1>";
+               $this->render('error/404',['message'=> 'Cette action n\'existe pas']);
            }
        }else {
-           echo "<h1>Ce controlleur n'existe pas</h1>";
+           $this->render('error/404',['message'=> 'Ce controleur n\'existe pas']);
        }
 
 

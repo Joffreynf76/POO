@@ -7,7 +7,7 @@ namespace Application\Controller;
 class NewsController
 {
     public function indexAction(){
-        echo "Je suis index action";
+        #include_once PATH_VIEWS. '/news/index.php';
     }
     public function categorieAction(){
         echo "Je suis categorie action";

@@ -11,10 +11,23 @@ class Core
             $params['controller']='news';
             $params['action']='index';
        endif;
-       $controller = $params['controller'];
-       $action = $params['action'];
+       $controller = 'Application\Controller\\'.ucfirst($params['controller']).'Controller';
+       $action = $params['action'].'Action';
+       if(file_exists(PATH_ROOT.'\\'.$controller.'.php')) {
+           $obj = new $controller;
+           if(method_exists($obj,$action)){
+                $obj->$action();
 
-       if($controller == 'news' && $action == 'index'){
+           }else {
+               echo "<h1>Cette action n'existe pas </h1>";
+           }
+       }else {
+           echo "<h1>Ce controlleur n'existe pas</h1>";
+       }
+
+
+
+      /* if($controller == 'news' && $action == 'index'){
            echo "<h1> Je suis la page d'accueil</h1>";
        }
        if($controller == 'news' && $action == 'categorie'){
@@ -25,6 +38,7 @@ class Core
        }
        if($controller == 'membre' && $action == 'inscription'){
            echo "<h1> Je suis la page d'inscription</h1>";
-       }
+       }*/
    }
+
 }

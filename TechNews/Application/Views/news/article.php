@@ -1,1 +1,2 @@
-<h1><?= $titre2?></h1>
+<?php
+var_dump($article);

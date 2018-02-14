@@ -91,9 +91,10 @@
 			</span>
         </div>
         <div class="list-special">
+            <?php foreach ($special as $article):?>
             <article class="news-two-large">
                 <a href="#">
-                    <img alt="" src="images/product/4.jpg">
+                    <img alt="" src="<?= $article->getFULLIMAGEARTICLE()?>">
                 </a>
                 <h3><a href="#">Six big ways MacOS Sierra is going to change your Apple experience</a></h3>
                 <div class="meta-post">
@@ -107,6 +108,7 @@
                 </div>
 
             </article>
+            <?endforeach;?>
         </div>
     </div>
 </div>

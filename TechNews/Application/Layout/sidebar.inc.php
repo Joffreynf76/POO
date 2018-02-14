@@ -1,8 +1,4 @@
-<?php
-use Application\Model\Article\ArticleDb;
-$articleDb = new ArticleDb();
-$sidebar = $articleDb->fetchAll('','DATECREATIONARTICLE DESC',5);
-?>
+
 <!--colright-->
 <div class="col-md-4 col-sm-12">
     <!--tab popular-->
@@ -16,23 +12,24 @@ $sidebar = $articleDb->fetchAll('','DATECREATIONARTICLE DESC',5);
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="tab1">
             <ul class="list-news-popular">
+                <?php foreach ($sidebar as $side):?>
                 <li>
                     <a href="#">
-                        <img alt="" src="images/product/8.jpg">
+                        <img alt="" src="<?= $side->getFULLIMAGEARTICLE()?>">
                     </a>
-                    <h3><a href="#">Netflix Speeds Jumped 51% This Year</a></h3>
+                    <h3><a href="#"><?= $side->getTITREARTICLE()?></a></h3>
                     <div class="meta-post">
                         <a href="#">
-                            Ashley Ford
+                            <?= $side->getAUTEUROBJ()->getNOMCOMPLETAUTEUR()?>
 
                         </a>
                         <em></em>
                         <span>
-							24 Aug  2016
+							<?= $side->getDATECREATIONARTICLE(); ?>
 						</span>
                     </div>
                 </li>
-
+                <?php endforeach;?>
             </ul>
 
         </div>

@@ -3,6 +3,9 @@
 namespace Application\Model\Article;
 
 
+use Application\Model\Auteur\AuteurDb;
+use Application\Model\Categorie\CategorieDb;
+
 class Article
 {
     private $IDARTICLE,
@@ -13,7 +16,34 @@ class Article
             $FEATUREDIMAGEARTICLE,
             $SPECIALARTICLE,
             $SPOTLIGHTARTICLE,
-            $DATECREATIONARTICLE;
+            $DATECREATIONARTICLE,
+            $CATEGORIEOBJ,
+            $AUTEUROBJ;
+
+    public function __construct()
+    {
+        $categorieDb= new CategorieDb();
+        $auteurDb = new AuteurDb();
+
+        $this->AUTEUROBJ = $auteurDb->fetchOne($this->IDAUTEUR);
+        $this->CATEGORIEOBJ = $categorieDb->fetchOne($this->IDCATEGORIE);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCATEGORIEOBJ()
+    {
+        return $this->CATEGORIEOBJ;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAUTEUROBJ()
+    {
+        return $this->AUTEUROBJ;
+    }
 
     /**
      * @return mixed
@@ -86,7 +116,9 @@ class Article
     {
         return $this->DATECREATIONARTICLE;
     }
-
+    public function getFULLIMAGEARTICLE(){
+        return PATH_PUBLIC. '/images/product/' . $this->FEATUREDIMAGEARTICLE;
+    }
 
 }
 

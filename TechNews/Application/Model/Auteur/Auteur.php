@@ -42,5 +42,8 @@ class Auteur
         return $this->EMAILAUTEUR;
     }
 
+    public function getNOMCOMPLETAUTEUR(){
+        return $this->PRENOMAUTEUR . ' ' . $this->NOMAUTEUR;
+    }
 
 }

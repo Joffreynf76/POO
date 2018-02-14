@@ -10,6 +10,7 @@ $tags = $tagsDb->fetchall();
 $articleDb = new ArticleDb();
 $sidebar = $articleDb->fetchAll('','DATECREATIONARTICLE DESC',5);
 //$this->debug($sidebar);
+$special = $articleDb->fetchAll('SPECIALARTICLE = 1');
 ?>
 <!DOCTYPE html>
 <html lang="fr">

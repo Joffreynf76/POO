@@ -96,14 +96,14 @@
                 <a href="#">
                     <img alt="" src="<?= $article->getFULLIMAGEARTICLE()?>">
                 </a>
-                <h3><a href="#">Six big ways MacOS Sierra is going to change your Apple experience</a></h3>
+                <h3><a href="#"><?= $article->getTITREARTICLE()?></a></h3>
                 <div class="meta-post">
                     <a href="#">
-                        Sue	Benson
+                        <?= $article->getAUTEUROBJ()->getNOMCOMPLETAUTEUR()?>
                     </a>
                     <em></em>
                     <span>
-						23 Sep 2016
+						<?= $article->getDATECREATIONARTICLE(); ?>
 					</span>
                 </div>
 

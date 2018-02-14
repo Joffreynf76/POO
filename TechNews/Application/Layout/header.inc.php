@@ -1,12 +1,15 @@
 <?php
 use Application\Model\Categorie\CategorieDb;
 use Application\Model\Tags\TagsDb;
+use Application\Model\Article\ArticleDb;
 $categorieDb= new CategorieDb();
 $categories = $categorieDb->fetchAll();
 $tagsDb= new TagsDb();
 $tags = $tagsDb->fetchall();
 //$this->debug($categories);
-
+$articleDb = new ArticleDb();
+$sidebar = $articleDb->fetchAll('','DATECREATIONARTICLE DESC',5);
+//$this->debug($sidebar);
 ?>
 <!DOCTYPE html>
 <html lang="fr">

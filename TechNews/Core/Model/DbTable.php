@@ -15,8 +15,27 @@ abstract class DbTable
         $this->_db=DbFactory::PdoFactory();
     }
 
-    public function fetchAll(){
+    public function fetchAll(
+        $where ='',
+        $orderby = '',
+        $limit = '',
+        $offset = ''
+    ){
         $sql = "SELECT * FROM " . $this->_table;
+        if($where != '') {
+            $sql .= ' WHERE ' . $where;
+        }
+        if($orderby != '') {
+            $sql .= ' ORDER BY ' . $orderby;
+        }
+        if($limit !='') {
+            $sql .= ' LIMIT ' . $limit;
+        }
+        if($offset != '') {
+            $sql .= ' OFFSET ' . $offset;
+        }
+
+
         $sth = $this->_db->prepare($sql);
         $sth->execute();
         return $sth->fetchAll(

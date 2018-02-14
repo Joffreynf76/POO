@@ -26,4 +26,12 @@ class AppController
         $object->setFlags(\ArrayObject::ARRAY_AS_PROPS);
         return $object;
     }
+    public function debug($params =''){
+        if(empty($params)):
+            $params=$this->_viewparams;
+        endif;
+        echo "<pre>";
+            print_r($params);
+        echo "</pre>";
+    }
 }

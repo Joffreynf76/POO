@@ -1,5 +1,15 @@
+<?php
+use Application\Model\Categorie\CategorieDb;
+use Application\Model\Tags\TagsDb;
+$categorieDb= new CategorieDb();
+$categories = $categorieDb->fetchAll();
+$tagsDb= new TagsDb();
+$tags = $tagsDb->fetchall();
+//$this->debug($categories);
+
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

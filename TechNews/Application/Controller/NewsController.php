@@ -14,7 +14,7 @@ class NewsController extends AppController
 {
     public function indexAction(){
 
-        $this->render('news/index',['titre'=> 'Accueil']);
+        $this->render('news/index');
         #include_once PATH_VIEWS. '/news/index.php';
     }
     public function categorieAction(){

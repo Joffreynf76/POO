@@ -40,6 +40,21 @@ class NewsController extends AppController
         $tags = $tagDb->fetchAll();
         $this->render('news/tags',['tags'=>$tags]);
     }
+    public function businessAction(){
+        $articleDb= new ArticleDb();
+        $article = $articleDb->fetchAll('IDCATEGORIE = 2');
+        $this->render('news/categorie',['articles'=>$article]);
+    }
+    public function computingAction(){
+        $articleDb= new ArticleDb();
+        $article = $articleDb->fetchAll('IDCATEGORIE = 3');
+        $this->render('news/categorie',['articles'=>$article]);
+    }
+    public function techAction(){
+        $articleDb= new ArticleDb();
+        $article = $articleDb->fetchAll('IDCATEGORIE = 4');
+        $this->render('news/categorie',['articles'=>$article]);
+    }
 
 
 }

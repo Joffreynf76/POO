@@ -31,6 +31,7 @@ class Categorie
      */
     public function getROUTECATEGORIE()
     {
+
         return $this->ROUTECATEGORIE;
     }
 

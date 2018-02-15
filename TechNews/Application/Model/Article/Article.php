@@ -119,6 +119,13 @@ class Article
     public function getFULLIMAGEARTICLE(){
         return PATH_PUBLIC. '/images/product/' . $this->FEATUREDIMAGEARTICLE;
     }
-
+    public function getACCROCHEARTICLE(){
+        $string = strip_tags($this->CONTENUARTICLE);
+        if(strlen($string)>170):
+            $stringCut = substr($string,0,170);
+            $string=substr($stringCut,0,strrpos($stringCut,' ')).'...';
+        endif;
+        return $string;
+    }
 }
 

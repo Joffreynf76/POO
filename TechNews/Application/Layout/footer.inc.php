@@ -81,6 +81,8 @@
 <script src="<?=PATH_PUBLIC?>/js/jquery.min.js"></script>
 <script src="<?=PATH_PUBLIC?>/js/bootstrap.js"></script>
 <script src="<?=PATH_PUBLIC?>/js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/locale/fr.js"></script>
 <script src="<?=PATH_PUBLIC?>/js/main.js"></script>
 </body>
 

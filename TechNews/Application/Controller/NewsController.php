@@ -13,8 +13,11 @@ use Core\Controller\AppController;
 class NewsController extends AppController
 {
     public function indexAction(){
+        $articleDb = new ArticleDb();
+        $articles = $articleDb->fetchAll();
+        $spotlight = $articleDb->fetchAll('SPOTLIGHTARTICLE = 1');
 
-        $this->render('news/index');
+        $this->render('news/index',['articles'=>$articles,'spotlight'=>$spotlight]);
         #include_once PATH_VIEWS. '/news/index.php';
     }
     public function categorieAction(){

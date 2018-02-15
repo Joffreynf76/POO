@@ -25,7 +25,8 @@
                         </a>
                         <em></em>
                         <span>
-							<?= $side->getDATECREATIONARTICLE(); ?>
+                            <time datetime="<?= $side->getDATECREATIONARTICLE(); ?>"></time>
+
 						</span>
                     </div>
                 </li>
@@ -91,24 +92,25 @@
 			</span>
         </div>
         <div class="list-special">
-            <?php foreach ($special as $article):?>
+            <?php foreach ($special as $specialarticle):?>
             <article class="news-two-large">
                 <a href="#">
-                    <img alt="" src="<?= $article->getFULLIMAGEARTICLE()?>">
+                    <img alt="" src="<?= $specialarticle->getFULLIMAGEARTICLE()?>">
                 </a>
-                <h3><a href="#"><?= $article->getTITREARTICLE()?></a></h3>
+                <h3><a href="#"><?= $specialarticle->getTITREARTICLE()?></a></h3>
                 <div class="meta-post">
                     <a href="#">
-                        <?= $article->getAUTEUROBJ()->getNOMCOMPLETAUTEUR()?>
+                        <?= $specialarticle->getAUTEUROBJ()->getNOMCOMPLETAUTEUR()?>
                     </a>
                     <em></em>
                     <span>
-						<?= $article->getDATECREATIONARTICLE(); ?>
+                        <time datetime="<?= $specialarticle->getDATECREATIONARTICLE(); ?>"></time>
+
 					</span>
                 </div>
 
             </article>
-            <?endforeach;?>
+            <?php endforeach;?>
         </div>
     </div>
 </div>

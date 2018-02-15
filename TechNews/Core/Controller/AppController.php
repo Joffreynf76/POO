@@ -34,4 +34,7 @@ class AppController
             print_r($params);
         echo "</pre>";
     }
+    public function getAction(){
+        return empty($_GET['action']) ? 'accueil' : $_GET['action'];
+    }
 }

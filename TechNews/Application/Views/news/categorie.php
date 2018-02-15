@@ -1,14 +1,15 @@
 <div class="row">
     <!--colleft-->
     <div class="col-md-8 col-sm-12">
-            <?php foreach ($articles as $categories):?>
+        <?php if(!empty($articles)) : ?>
         <div class="box-caption">
 
-            <span><?= $categories->getCATEGORIEOBJ()->getLIBELLECATEGORIE()?></span>
+            <span><?= $this->getACTION()?></span>
         </div>
         <!--list-news-cate-->
 
 
+            <?php foreach ($articles as $categories):?>
         <div class="list-news-cate">
             <article class="news-cate-item">
                 <div class="row">
@@ -34,6 +35,11 @@
             </article>
         </div>
         <?php endforeach;?>
+        <?php else : ?>
+            <div class="alert alert-danger">
+                <strong>Aucune publication pour le moment</strong>
+            </div>
+        <?php endif; ?>
 
         <div class="paging">
             <a href="#">Prev</a>

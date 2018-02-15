@@ -1,4 +1,5 @@
 <?php
+$current=ucfirst($this->getACTION());
 
 ?>
 <!--menu mobile-->
@@ -6,7 +7,7 @@
     <div class="menu-res-inner">
         <ul>
             <?php foreach ($categories as $categorie):?>
-            <li><a href="<?= PATH_PUBLIC. '/'. $categorie->getROUTECATEGORIE()?>"><?= $categorie->getLIBELLECATEGORIE()?></a></li>
+            <li <?=($categorie->getLIBELLECATEGORIE()== $current) ? 'class="current"' : null ?>><a href="<?= PATH_PUBLIC. '/'. $categorie->getROUTECATEGORIE()?>"><?= $categorie->getLIBELLECATEGORIE()?></a></li>
             <?php endforeach;?>
 
         </ul>
@@ -32,7 +33,7 @@
             </div>
             <ul class="hidden-sm hidden-xs">
                 <?php foreach ($categories as $categorie):?>
-                    <li><a href="<?= PATH_PUBLIC. '/'. $categorie->getROUTECATEGORIE()?>"><?= $categorie->getLIBELLECATEGORIE()?></a></li>
+                    <li <?=($categorie->getLIBELLECATEGORIE()== $current) ? 'class="current"' : null ?>><a href="<?= PATH_PUBLIC. '/'. $categorie->getROUTECATEGORIE()?>"><?= $categorie->getLIBELLECATEGORIE()?></a></li>
                 <?php endforeach;?>
 
             </ul>

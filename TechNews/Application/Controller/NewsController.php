@@ -23,7 +23,7 @@ class NewsController extends AppController
     public function categorieAction(){
         $categorieDb= new CategorieDb();
         $categories = $categorieDb->fetchAll();
-        $this->render('news/categorie',['categories'=>$categories]);
+        $this->render('news/categorie');
     }
     public function articleAction(){
         $articleDb= new ArticleDb();
@@ -40,4 +40,6 @@ class NewsController extends AppController
         $tags = $tagDb->fetchAll();
         $this->render('news/tags',['tags'=>$tags]);
     }
+
+
 }

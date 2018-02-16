@@ -17,6 +17,11 @@ class AppController
         include_once PATH_FOOTER;
     }
 
+    protected function renderJson(Array $params){
+        header('Content-Type:application\json');
+        echo json_encode($params);
+    }
+
     /**
      * @return mixed
      */

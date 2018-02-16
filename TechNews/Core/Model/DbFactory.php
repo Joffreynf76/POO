@@ -13,4 +13,14 @@ class DbFactory
 
         return $pdo;
     }
+    public static function IdiormFactory(){
+        ORM::configure('mysql:host='.DBHOST.';dbname='.DBNAME);
+        ORM::configure('username', DBUSER);
+        ORM::configure('password', DBPASW);
+
+        ORM::configure('id_column_overrides', array(
+            'article' => 'IDARTICLE',
+            'view_articles' => 'IDARTICLE',
+        ));
+    }
 }

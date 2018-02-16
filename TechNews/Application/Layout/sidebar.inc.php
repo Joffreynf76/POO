@@ -17,7 +17,7 @@
                     <a href="#">
                         <img alt="" src="<?= $side->getFULLIMAGEARTICLE()?>">
                     </a>
-                    <h3><a href="#"><?= $side->getTITREARTICLE()?></a></h3>
+                    <h3><a href="<?= $this->generateUfm('article/$1-$2.html', [$side->getIDARTICLE(), $this->slugify($side->getTITREARTICLE())]) ?>"><?= $side->getTITREARTICLE()?></a></h3>
                     <div class="meta-post">
                         <a href="#">
                             <?= $side->getAUTEUROBJ()->getNOMCOMPLETAUTEUR()?>
@@ -97,7 +97,7 @@
                 <a href="#">
                     <img alt="" src="<?= $specialarticle->getFULLIMAGEARTICLE()?>">
                 </a>
-                <h3><a href="#"><?= $specialarticle->getTITREARTICLE()?></a></h3>
+                <h3><a href="<?= $this->generateUfm('article/$1-$2.html', [$specialarticle->getIDARTICLE(), $this->slugify($specialarticle->getTITREARTICLE())]) ?>"><?= $specialarticle->getTITREARTICLE()?></a></h3>
                 <div class="meta-post">
                     <a href="#">
                         <?= $specialarticle->getAUTEUROBJ()->getNOMCOMPLETAUTEUR()?>

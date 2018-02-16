@@ -4,9 +4,12 @@ namespace Core\Controller;
 
 
 use Core\Model\DbFactory;
+use Core\Model\Helper;
 
 class AppController
 {
+    use Helper;
+
     private $_viewparams;
 
     public function __construct()

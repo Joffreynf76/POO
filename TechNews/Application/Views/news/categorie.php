@@ -9,27 +9,27 @@
         <!--list-news-cate-->
 
 
-            <?php foreach ($articles as $categories):?>
+            <?php foreach ($articles as $categories2):?>
         <div class="list-news-cate">
             <article class="news-cate-item">
                 <div class="row">
                     <div class="col-md-5 col-sm-5 col-xs-12">
                         <a href="#">
-                            <img alt="" src="<?= $categories->getFULLIMAGEARTICLE()?>">
+                            <img alt="" src="<?= $categories2->getFULLIMAGEARTICLE()?>">
                         </a>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12">
-                        <h3><a href="#"><?= $categories->getTITREARTICLE()?></a></h3>
+                        <h3><a href="#"><?= $categories2->getTITREARTICLE()?></a></h3>
                         <div class="meta-post">
                             <a href="#">
-                                <?= $categories->getAUTEUROBJ()->getNOMCOMPLETAUTEUR();?>
+                                <?= $categories2->getAUTEUROBJ()->getNOMCOMPLETAUTEUR();?>
                             </a>
                             <em></em>
                             <span>
-                                        <time datetime="<?= $categories->getDATECREATIONARTICLE() ?>"></time>
+                                        <time datetime="<?= $categories2->getDATECREATIONARTICLE() ?>"></time>
                                     </span>
                         </div>
-                        <?= $categories->getACCROCHEARTICLE();?>
+                        <?= $categories2->getACCROCHEARTICLE();?>
                     </div>
                 </div>
             </article>

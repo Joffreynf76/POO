@@ -13,7 +13,7 @@
                 <article class="spotlight-item">
                     <div class="spotlight-img">
                         <img alt="" src="<?= $spotlights->getFULLIMAGEARTICLE()?>" class="img-responsive"/>
-                        <a href="#" class="cate-tag"><?= $spotlights->getCATEGORIEOBJ()->getLIBELLECATEGORIE()?></a>
+                        <a href="<?= $this->generateUrl('news',strtolower($spotlights->getCATEGORIEOBJ()->getLIBELLECATEGORIE()))?>" class="cate-tag"><?= $spotlights->getCATEGORIEOBJ()->getLIBELLECATEGORIE()?></a>
                     </div>
                     <div class="spotlight-item-caption">
                         <h2 class="font-heading">
@@ -51,7 +51,7 @@
                             <a href="#">
                                 <img alt="" src="<?= $article->getFULLIMAGEARTICLE()?>" />
                             </a>
-                            <a href="#" class="cate-tag"><?= $article->getCATEGORIEOBJ()->getLIBELLECATEGORIE()?></a>
+                            <a href="<?= $this->generateUrl('news', strtolower($article->getCATEGORIEOBJ()->getLIBELLECATEGORIE())) ?>" class="cate-tag"><?= $article->getCATEGORIEOBJ()->getLIBELLECATEGORIE()?></a>
                         </div>
                         <h3><a href="#"> <?= $article->getTITREARTICLE()?></a></h3>
                         <div class="meta-post">

@@ -28,7 +28,7 @@ class NewsController extends AppController
         $this->render('news/categorie');
     }
     public function articleAction(){
-        DbFactory::IdiormFactory();
+        #DbFactory::IdiormFactory();
         $idarticle      = $_GET['idarticle'];
         $article        = ORM::for_table('view_articles')->find_one($idarticle);
         $tags           = ORM::for_table('tags')->where('IDTAGS', $idarticle)->find_result_set();

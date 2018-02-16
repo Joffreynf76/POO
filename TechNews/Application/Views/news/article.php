@@ -15,12 +15,6 @@
             </div>
 
             <p><?= $article->CONTENUARTICLE;?></p>
-
-
-            <img alt="" src="<?=$article->FULLIMAGEARTICLE?>" class="post-detail-img-left"/>
-
-
-
             <h5 class="text-right font-heading"><strong> <?= $auteur->PRENOMAUTEUR; ?> <?= $auteur->NOMAUTEUR;?></strong></h5>
 
         </article>
@@ -75,7 +69,7 @@
                     <div class="spotlight-item-thumb">
                         <div class="spotlight-item-thumb-img">
                             <a href="#">
-                                <img alt="" src="<?= $suggestion->FULLIMAGEARTICLE?>">
+                                <img alt="" src="<?=PATH_PUBLIC ."/images/product/". $suggestion->FEATUREDIMAGEARTICLE?>">
                             </a>
                             <a href="#" class="cate-tag"><?= $suggestion->LIBELLECATEGORIE?></a>
                         </div>

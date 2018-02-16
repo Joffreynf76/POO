@@ -3,18 +3,30 @@
 namespace Core\Controller;
 
 
+use Core\Model\DbFactory;
+
 class AppController
 {
     private $_viewparams;
 
+    public function __construct()
+    {
+        DbFactory::IdiormFactory();
+    }
+
     protected function render($view,array $viewparams=[]){
         $this->_viewparams=$viewparams;
         extract($this->_viewparams);
-        include_once PATH_HEADER;
 
-        include_once PATH_VIEWS."/".$view.".php";
+        $view= PATH_VIEWS."/".$view.".php";
+        if(file_exists($view)) :
+            include_once PATH_HEADER;
+            include_once $view;
+            include_once PATH_FOOTER;
 
-        include_once PATH_FOOTER;
+            else :
+            $this->render('errors/404',['message'=>'Aucune vue correspondante']);
+        endif;
     }
 
     protected function renderJson(Array $params){
@@ -42,4 +54,6 @@ class AppController
     public function getAction(){
         return empty($_GET['action']) ? 'accueil' : $_GET['action'];
     }
+
+
 }

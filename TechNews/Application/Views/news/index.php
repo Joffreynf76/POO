@@ -17,7 +17,7 @@
                     </div>
                     <div class="spotlight-item-caption">
                         <h2 class="font-heading">
-                            <a href="javascript:void(0)">
+                            <a href="#">
                                 <?= $spotlights->getTITREARTICLE()?></a>
                         </h2>
                         <div class="meta-post">

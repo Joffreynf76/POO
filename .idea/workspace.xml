@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ace8663-163c-494a-928c-8b138f29f4b7" name="Default" comment="generation url">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/POO.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/396e1d62-4096-4496-a539-26e8e21454aa.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/396e1d62-4096-4496-a539-26e8e21454aa/storage_v2/_src_/schema/news.04ozAA.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/396e1d62-4096-4496-a539-26e8e21454aa/storage_v2/_src_/schema/news.04ozAA.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.env.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/assets/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/bin/console" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/bin/phpunit" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/bundles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/dev/easy_log_handler.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/dev/monolog.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/dev/routing.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/dev/swiftmailer.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/dev/web_profiler.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/doctrine.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/doctrine_migrations.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/framework.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/prod/doctrine.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/prod/monolog.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/routing.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/security.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/swiftmailer.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/test/framework.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/test/monolog.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/test/swiftmailer.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/test/web_profiler.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/translation.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/twig.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes/annotations.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes/dev/twig.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes/dev/web_profiler.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/services.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/services_test.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/phpunit.xml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/main.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/main.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/normalize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/normalize.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/owl.carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/owl.carousel.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/ads.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/apple-touch-icon-114x114.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/apple-touch-icon-57x57.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/apple-touch-icon-72x72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/avatar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/avatar1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/avatar2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/logo_footer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/images/product/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/js/jquery.matchHeight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/js/owl.carousel.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Kernel.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Migrations/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/ArticleProvider.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/articles.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/symfony.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/base.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/tests/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/translations/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/webpack.config.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="news@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="e#44#101#0#PHP" expanded="true" />
+                <element signature="e#565#588#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <element signature="e#23#28#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#2873#2902#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Introduction/Ecole.class.php" />
+        <option value="$PROJECT_DIR$/Introduction/Classes.class.php" />
+        <option value="$PROJECT_DIR$/Introduction/Eleves.class.php" />
+        <option value="$PROJECT_DIR$/Introduction/index.php" />
+        <option value="$PROJECT_DIR$/TechNews/menu.inc.php" />
+        <option value="$PROJECT_DIR$/TechNews/footer.inc.php" />
+        <option value="$PROJECT_DIR$/TechNews/header.inc.php" />
+        <option value="$PROJECT_DIR$/TechNews/index.php" />
+        <option value="$PROJECT_DIR$/TechNews/Core.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/error/404.php" />
+        <option value="$PROJECT_DIR$/TechNews/Core/Core.php" />
+        <option value="$PROJECT_DIR$/TechNews/public/index.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Categorie.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Categorie/CategorieDb.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Tags/Tags.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Article/ArticleDb.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Tags/TagsDb.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Auteur/AuteurDb.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/news/auteur.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/news/tags.php" />
+        <option value="$PROJECT_DIR$/TechNews/public/autoloader.php" />
+        <option value="$PROJECT_DIR$/TechNews/public/bootstrap.php" />
+        <option value="$PROJECT_DIR$/TechNews/Core/Model/DbTable.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Layout/header.inc.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Auteur/Auteur.php" />
+        <option value="$PROJECT_DIR$/TechNews/public/js/main.js" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Article/Article.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/news/business.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Model/Categorie/Categorie.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Layout/menu.inc.php" />
+        <option value="$PROJECT_DIR$/TechNews/Core/Model/DbFactory.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/news/article.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Controller/NewsController.php" />
+        <option value="$PROJECT_DIR$/TechNews/Core/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Layout/footer.inc.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/news/categorie.php" />
+        <option value="$PROJECT_DIR$/TechNews/Core/Model/Helper.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Views/news/index.php" />
+        <option value="$PROJECT_DIR$/TechNews/Application/Layout/sidebar.inc.php" />
+        <option value="$PROJECT_DIR$/Symfony/01-Var-Dumper/index.php" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes.yaml" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/articles.yaml" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/ArticleProvider.php" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.env" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="288" />
+    <option name="y" value="244" />
+    <option name="width" value="1238" />
+    <option name="height" value="731" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="POO" type="cbb8eebc:String" user="POO" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="POO" type="cbb8eebc:String" user="POO" />
+              <item name="TechNews" type="cbb8eebc:String" user="TechNews" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="POO" type="cbb8eebc:String" user="POO" />
+              <item name="TechNews" type="cbb8eebc:String" user="TechNews" />
+              <item name="public" type="cbb8eebc:String" user="public" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;PostgreSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\Symfony" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\Symfony\02-TechNews-Sf" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\Symfony\02-TechNews-Sf\my-project\public" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\TechNews" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\Symfony\02-TechNews-Sf\my-project" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\Symfony\02-TechNews-Sf" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\Symfony" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\TechNews\Core\Model" />
+      <recent name="C:\Users\Admin\PhpstormProjects\POO\TechNews\Application\Model\Categorie" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ace8663-163c-494a-928c-8b138f29f4b7" name="Default" comment="" />
+      <created>1518426101586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518426101586</updated>
+      <workItem from="1518426103813" duration="18550000" />
+      <workItem from="1518510247173" duration="22354000" />
+      <workItem from="1518597056706" duration="21010000" />
+      <workItem from="1518683332784" duration="12787000" />
+      <workItem from="1518699526147" duration="9219000" />
+      <workItem from="1518769850041" duration="24277000" />
+      <workItem from="1519029712103" duration="5509000" />
+      <workItem from="1519036404581" duration="741000" />
+      <workItem from="1519037162886" duration="14622000" />
+      <workItem from="1519115257573" duration="12764000" />
+    </task>
+    <task id="LOCAL-00001" summary="intro">
+      <created>1518428000259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518428000259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="intro suite">
+      <created>1518432195141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518432195141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="intro fin">
+      <created>1518437865084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518437865084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tech news">
+      <created>1518446569901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518446569901</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nouvelle sructure">
+      <created>1518450491172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518450491172</updated>
+    </task>
+    <task id="LOCAL-00006" summary="autoload + controller">
+      <created>1518516412677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1518516412677</updated>
+    </task>
+    <task id="LOCAL-00007" summary="controller + view +...">
+      <created>1518521884540</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1518521884540</updated>
+    </task>
+    <task id="LOCAL-00008" summary="AppController">
+      <created>1518522900002</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1518522900002</updated>
+    </task>
+    <task id="LOCAL-00009" summary="page erreur">
+      <created>1518530810814</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1518530810814</updated>
+    </task>
+    <task id="LOCAL-00010" summary="base de donnees">
+      <created>1518537322456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1518537322456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="base de donnees">
+      <created>1518602917487</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1518602917487</updated>
+    </task>
+    <task id="LOCAL-00012" summary="affichage tags et categorie">
+      <created>1518611754222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1518611754222</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sidebar">
+      <created>1518617398450</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1518617398450</updated>
+    </task>
+    <task id="LOCAL-00014" summary="sidebar">
+      <created>1518624255524</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1518624255524</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sidebar">
+      <created>1518624362900</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1518624362900</updated>
+    </task>
+    <task id="LOCAL-00016" summary="sidebar">
+      <created>1518624480571</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1518624480571</updated>
+    </task>
+    <task id="LOCAL-00017" summary="page index">
+      <created>1518693596704</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1518693596704</updated>
+    </task>
+    <task id="LOCAL-00018" summary="page index">
+      <created>1518699321812</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1518699321812</updated>
+    </task>
+    <task id="LOCAL-00019" summary="categorie">
+      <created>1518706138690</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1518706138690</updated>
+    </task>
+    <task id="LOCAL-00020" summary="categorie">
+      <created>1518706410463</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1518706410463</updated>
+    </task>
+    <task id="LOCAL-00021" summary="categorie">
+      <created>1518710035416</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1518710035416</updated>
+    </task>
+    <task id="LOCAL-00022" summary="orm">
+      <created>1518786104200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1518786104200</updated>
+    </task>
+    <task id="LOCAL-00023" summary="article">
+      <created>1518792108200</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1518792108200</updated>
+    </task>
+    <task id="LOCAL-00024" summary="helper">
+      <created>1518795543531</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1518795543531</updated>
+    </task>
+    <task id="LOCAL-00025" summary="generation url">
+      <created>1518796973933</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1518796973933</updated>
+    </task>
+    <task id="LOCAL-00026" summary="generation url">
+      <created>1519131202614</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1519131202614</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="141833000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08483563" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.090625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08483563" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08483563" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08483563" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.090625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intro" />
+    <MESSAGE value="intro suite" />
+    <MESSAGE value="intro fin" />
+    <MESSAGE value="tech news" />
+    <MESSAGE value="nouvelle sructure" />
+    <MESSAGE value="autoload + controller" />
+    <MESSAGE value="controller + view +..." />
+    <MESSAGE value="AppController" />
+    <MESSAGE value="page erreur" />
+    <MESSAGE value="base de donnees" />
+    <MESSAGE value="affichage tags et categorie" />
+    <MESSAGE value="sidebar" />
+    <MESSAGE value="page index" />
+    <MESSAGE value="categorie" />
+    <MESSAGE value="orm" />
+    <MESSAGE value="article" />
+    <MESSAGE value="helper" />
+    <MESSAGE value="generation url" />
+    <option name="LAST_COMMIT_MESSAGE" value="generation url" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Article/ArticleDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Views/news/auteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Auteur/AuteurDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/public/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/396e1d62-4096-4496-a539-26e8e21454aa/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Tags/Tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Tags/TagsDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Views/news/tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Layout/header.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Auteur/Auteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="60" lean-forward="false" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Views/news/business.php" />
+    <entry file="file://$PROJECT_DIR$/TechNews/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Categorie/Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Core/Model/DbTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f2d39ce5/396e1d62-4096-4496-a539-26e8e21454aa/news.categorie">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/f2d39ce5/396e1d62-4096-4496-a539-26e8e21454aa/news.article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Article/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1757">
+          <caret line="125" column="69" lean-forward="false" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Core/Model/ORM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Core/Model/DbFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/public/images/product/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Views/news/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Layout/menu.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Core/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Layout/footer.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="92" lean-forward="false" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Controller/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Layout/sidebar.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="107" lean-forward="false" selection-start-line="99" selection-start-column="107" selection-end-line="99" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/public/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Views/news/categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Core/Model/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechNews/Application/Views/news/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="50" column="157" lean-forward="false" selection-start-line="50" selection-start-column="157" selection-end-line="50" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/01-Var-Dumper/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/public/css/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/05-LES PROVIDERS DANS SF4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="99" lean-forward="false" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+          <folding>
+            <element signature="e#420#435#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="168" column="6" lean-forward="false" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="20" column="107" lean-forward="false" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+          <folding>
+            <element signature="e#1022#1037#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <element signature="e#23#28#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/articles.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="39" lean-forward="false" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/ArticleProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#44#101#0#PHP" expanded="true" />
+            <element signature="e#565#588#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/06-DOCTRINE ET LES ENTITES.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#2873#2902#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

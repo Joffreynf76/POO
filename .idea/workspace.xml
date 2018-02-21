@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ace8663-163c-494a-928c-8b138f29f4b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/06-DOCTRINE ET LES ENTITES (1).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/07-TWIG.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.json" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.json" />
       <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.lock" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/bundles.php" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/bundles.php" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/twig.yaml" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/twig.yaml" />
       <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Categorie.php" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Categorie.php" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/symfony.lock" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/symfony.lock" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig" />
       <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,14 +47,14 @@
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="454">
+              <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="e#44#67#0#PHP" expanded="true" />
                 <element signature="e#765#788#0#PHP" expanded="true" />
-                <element signature="e#1261#1288#0#PHP" expanded="true" />
-                <element signature="e#1880#1887#0#PHP" expanded="true" />
-                <element signature="e#2149#2174#0#PHP" expanded="true" />
+                <element signature="e#1383#1410#0#PHP" expanded="true" />
+                <element signature="e#2001#2008#0#PHP" expanded="true" />
+                <element signature="e#2270#2295#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,69 +63,21 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="612">
+              <caret line="36" column="70" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
               <folding>
-                <element signature="e#2852#2881#0#Twig" expanded="true" />
+                <element signature="e#2792#2821#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/ArticleRepository.php">
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategorieRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-                <element signature="e#7933#7962#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categorie.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="45" lean-forward="false" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-                <element signature="e#1769#1798#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/ArticleController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="e#43#66#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TechNews/Core.php" />
         <option value="$PROJECT_DIR$/TechNews/Application/Views/error/404.php" />
         <option value="$PROJECT_DIR$/TechNews/Core/Core.php" />
         <option value="$PROJECT_DIR$/TechNews/public/index.php" />
@@ -170,22 +129,23 @@
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/routes.yaml" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/articles.yaml" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Service/Article/ArticleProvider.php" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/.env" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Categorie.php" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Auteur.php" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/ArticleController.php" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/ArticleRepository.php" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig" />
-        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php" />
         <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Categorie.php" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/twig.yaml" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig" />
+        <option value="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" />
       </list>
     </option>
   </component>
@@ -265,77 +225,6 @@
               <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="TechNews" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POO" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="02-TechNews-Sf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="my-project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -399,7 +288,7 @@
       <workItem from="1519036404581" duration="741000" />
       <workItem from="1519037162886" duration="14622000" />
       <workItem from="1519115257573" duration="23334000" />
-      <workItem from="1519201896370" duration="12420000" />
+      <workItem from="1519201896370" duration="21084000" />
     </task>
     <task id="LOCAL-00001" summary="intro">
       <created>1518428000259</created>
@@ -608,7 +497,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164823000" />
+    <option name="totallyTimeSpent" value="173487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -690,27 +579,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TechNews/Core/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TechNews/Application/Model/Categorie/Categorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TechNews/Core/Model/DbTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/f2d39ce5/396e1d62-4096-4496-a539-26e8e21454aa/news.categorie">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -871,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="99" lean-forward="false" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
@@ -885,25 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="20" column="107" lean-forward="false" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,18 +842,73 @@
         <state relative-caret-position="3536">
           <caret line="208" column="38" lean-forward="false" selection-start-line="208" selection-start-column="38" selection-end-line="208" selection-end-column="38" />
           <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
+            <element signature="e#30#78#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Article.php">
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3259">
-          <caret line="210" column="34" lean-forward="false" selection-start-line="210" selection-start-column="34" selection-end-line="210" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
           <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
+            <element signature="e#12#28#0#Twig" expanded="true" />
+            <element signature="e#3818#3847#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/07-TWIG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#44#67#0#PHP" expanded="true" />
+            <element signature="e#765#788#0#PHP" expanded="true" />
+            <element signature="e#1383#1410#0#PHP" expanded="true" />
+            <element signature="e#2001#2008#0#PHP" expanded="true" />
+            <element signature="e#2270#2295#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/packages/twig_extensions.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,79 +917,73 @@
         <state relative-caret-position="255">
           <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <element signature="e#43#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Categorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#2852#2881#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-            <element signature="e#7933#7962#0#Twig" expanded="true" />
+            <element signature="e#43#66#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="45" lean-forward="false" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        <state relative-caret-position="578">
+          <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="82" />
           <folding>
             <element signature="e#12#28#0#Twig" expanded="true" />
-            <element signature="e#1769#1798#0#Twig" expanded="true" />
+            <element signature="e#2144#2173#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="210" column="34" lean-forward="false" selection-start-line="210" selection-start-column="34" selection-end-line="210" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/ArticleRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
+        <state relative-caret-position="437">
           <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="306">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
-            <element signature="e#44#67#0#PHP" expanded="true" />
-            <element signature="e#765#788#0#PHP" expanded="true" />
-            <element signature="e#1261#1288#0#PHP" expanded="true" />
-            <element signature="e#1880#1887#0#PHP" expanded="true" />
-            <element signature="e#2149#2174#0#PHP" expanded="true" />
+            <element signature="e#776#791#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Repository/CategorieRepository.php">
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="612">
+          <caret line="36" column="70" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+          <folding>
+            <element signature="e#2792#2821#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#159#164#0#Twig" expanded="true" />
+            <element signature="e#1159#1164#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

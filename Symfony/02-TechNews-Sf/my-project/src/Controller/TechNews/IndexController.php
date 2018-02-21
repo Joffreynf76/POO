@@ -28,10 +28,11 @@ class IndexController extends Controller
      * @return Response
      * @Route("/categorie/{libellecategorie}",name="index_categorie",methods={"GET"})
      */
-    public function categorie(Categorie $article) {
+    public function categorie($libellecategorie ='') {
         #return new Response("<html><body><h1>PAGE CATEGORIE : $libellecategorie</h1></body></html>");
-        $catarticle= $this->getDoctrine()
-        return $this->render('index/categorie.html.twig',['article'=>$catarticle]);
+        $categorie=$this->getDoctrine()->getRepository(Categorie::class)->findOneBy(['libelle'=>$libellecategorie]);
+        $articles=$categorie->getArticle();
+        return $this->render('index/categorie.html.twig',['articles'=>$articles]);
 
     }
 

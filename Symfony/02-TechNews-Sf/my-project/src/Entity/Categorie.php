@@ -67,7 +67,7 @@ class Categorie
      */
     public function getArticle()
     {
-        return $this->article;
+        return $this->articles;
     }
 
     /**

@@ -13,8 +13,8 @@
         </div>
         <!--sportlight-->
         <section class="owl-carousel owl-spotlight">
-            {% for article in articles %}
-            {% if article.spotlight %}
+            {% for article in spotlight %}
+
             <div>
                 <article class="spotlight-item">
                     <div class="spotlight-img">
@@ -41,7 +41,7 @@
                     </div>
                 </article>
             </div>
-            {% endif %}
+
             {% endfor %}
 
         </section>

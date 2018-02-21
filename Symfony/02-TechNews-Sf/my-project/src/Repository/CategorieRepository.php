@@ -13,8 +13,5 @@ class CategorieRepository extends ServiceEntityRepository
         parent::__construct($registry, Categorie::class);
     }
 
-    public function categorieArticles($idcategorie){
-        return $this->createQueryBuilder('c')
-            ->
-    }
+
 }

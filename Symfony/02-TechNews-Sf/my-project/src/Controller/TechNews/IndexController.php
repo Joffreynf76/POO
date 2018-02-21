@@ -3,19 +3,23 @@
 namespace App\Controller\TechNews;
 
 
+use App\Entity\Article;
+use App\Entity\Categorie;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use App\Service\Article\ArticleProvider;
+#use App\Service\Article\ArticleProvider;
 
 class IndexController extends Controller
 {
-    public function index(ArticleProvider $articleProvider) {
+    public function index() {
         #return new Response("<html><body><h1>PAGE D'ACCUEIL</h1></body></html>");
         #return $this->render('index/index.html.twig');
-        $articles = $articleProvider->getArticles();
+        #$articles = $articleProvider->getArticles();
+        $article = $this->getDoctrine()->getRepository(Article::class)->findAll();
+        $spotlight=$this->getDoctrine()->getRepository(Article::class)->findSpotlightArticles();
         return $this->render('index/index.html.twig', [
-            'articles' => $articles
+            'articles' => $article,'spotlight'=>$spotlight
         ]);
     }
 
@@ -24,8 +28,11 @@ class IndexController extends Controller
      * @return Response
      * @Route("/categorie/{libellecategorie}",name="index_categorie",methods={"GET"})
      */
-    public function categorie($libellecategorie = '') {
-        return new Response("<html><body><h1>PAGE CATEGORIE : $libellecategorie</h1></body></html>");
+    public function categorie(Categorie $article) {
+        #return new Response("<html><body><h1>PAGE CATEGORIE : $libellecategorie</h1></body></html>");
+        $catarticle= $this->getDoctrine()
+        return $this->render('index/categorie.html.twig',['article'=>$catarticle]);
+
     }
 
     /**
@@ -33,9 +40,17 @@ class IndexController extends Controller
      * @param $titrearticle
      * @param $idarticle
      * @return Response
-     * @Route("{libellecategorie}/{slugarticle}_{idarticle}.html",name="index_article",requirements={"idarticle"="\d+"},methods={"GET"})
+     * @Route("{libellecategorie}/{slugarticle}_{id}.html",name="index_article",requirements={"id"="\d+"},methods={"GET"})
      */
-    public function article($libellecategorie,$slugarticle,$idarticle){
-        return new Response("<html><body><h1>Page article : $libellecategorie | $slugarticle | $idarticle</h1></body></html>");
+    public function article(Article $article){
+        #$article = $this->getDoctrine()->getRepository(Article::class)->find($idarticle);
+        if(!$article):
+            #throw $this->createNotFoundException("Nous n'avons pas trouvé votre article id : ".$idarticle);
+        return $this->redirectToRoute('index',[],Response::HTTP_MOVED_PERMANENTLY);
+        endif;
+        $suggestions = $this->getDoctrine()
+            ->getRepository(Article::class)
+            ->findArticleSuggestions($article->getId(),$article->getCategorie()->getId());
+        return $this->render('index/article.html.twig',['article'=> $article,'suggestions'=>$suggestions]);
     }
 }

@@ -54,4 +54,22 @@ class IndexController extends Controller
             ->findArticleSuggestions($article->getId(),$article->getCategorie()->getId());
         return $this->render('index/article.html.twig',['article'=> $article,'suggestions'=>$suggestions]);
     }
+
+    public function sidebar() {
+
+        # Récupération du Répository
+        $repository = $this->getDoctrine()->getRepository(Article::class);
+
+        # Récupération des 5 derniers articles
+        $articles   = $repository->findLastFiveArticle();
+
+        # Récupération des articles à la position "special"
+        $special    = $repository->findSpecialArticles();
+
+        return $this->render('components/_sidebar.html.twig', [
+            'articles'  => $articles,
+            'special'   => $special
+        ]);
+
+    }
 }

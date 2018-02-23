@@ -2,8 +2,9 @@
 {% block page_title %}
     {{ app.request.get('libellecategorie') | capitalize }}
 {% endblock %}
+{% set active = app.request.get('libellecategorie') | capitalize %}
 {% block content %}
-    
+
 
 
 <div class="row">
@@ -20,12 +21,16 @@
             <article class="news-cate-item">
                 <div class="row">
                     <div class="col-md-5 col-sm-5 col-xs-12">
-                        <a href="#">
+                        <a href="{{ url('index_article',{'libellecategorie': article.categorie.libelle |slugify,
+                            'slugarticle':article.titre | slugify,
+                            'id' : article.id |slugify })}}">
                             <img alt="" src="{{ asset('images/product/'~article.featuredimage) }}">
                         </a>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12">
-                        <h3><a href="#">{{ article.titre }}</a></h3>
+                        <h3><a href="{{ url('index_article',{'libellecategorie': article.categorie.libelle |slugify,
+                                'slugarticle':article.titre | slugify,
+                                'id' : article.id |slugify })}}">{{ article.titre }}</a></h3>
                         <div class="meta-post">
                             <a href="#">
                                 {{ article.auteur.prenom ~ ' ' ~ article.auteur.nom }}
@@ -35,7 +40,7 @@
                                         {{ article.datecreation | date('d/m/Y') }}
                                     </span>
                         </div>
-                        Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere...
+                        {{ article.contenu | accroche }}
                     </div>
                 </div>
             </article>
@@ -56,6 +61,7 @@
         </div>
 
     </div>
-    {% include 'components/_sidebar.html.twig' %}
+    {{ render(controller('App\\Controller\\TechNews\\IndexController::sidebar')) }}
+    {#{% include 'components/_sidebar.html.twig' %}#}
 </div>
 {% endblock %}

@@ -3,7 +3,7 @@
 {% block page_title %}
     Accueil
 {% endblock %}
-
+{% set active = 'index' %}
 {% block content %}
 <div class="row">
     <!--colleft-->
@@ -19,12 +19,14 @@
                 <article class="spotlight-item">
                     <div class="spotlight-img">
                         <img alt="{{ article.titre }}" src="{{ asset('images/product/'~article.featuredimage) }}" class="img-responsive" />
-                        <a href="#" class="cate-tag">{{ article.categorie.libelle }}</a>
+                        <a href="{{ url('index_categorie', { libellecategorie : article.categorie.libelle | slugify }) }}" class="cate-tag">{{ article.categorie.libelle }}</a>
                     </div>
 
                     <div class="spotlight-item-caption">
                         <h2 class="font-heading">
-                            <a href="article.html">
+                            <a href="{{ url('index_article',{'libellecategorie': article.categorie.libelle |slugify,
+                             'slugarticle':article.titre | slugify,
+                             'id' : article.id |slugify })}}">
                                 {{ article.titre }}
                             </a>
                         </h2>
@@ -39,6 +41,7 @@
                         </div>
 
                     </div>
+                    {{ article.contenu | accroche }}
                 </article>
             </div>
 
@@ -56,9 +59,11 @@
                             <a href="#">
                                 <img alt="{{ article.titre }}" src="{{ asset('images/product/'~article.featuredimage) }} "/>
                             </a>
-                            <a href="#" class="cate-tag">{{ article.categorie.libelle }}</a>
+                            <a href="{{ url('index_categorie', { libellecategorie : article.categorie.libelle | lower }) }}" class="cate-tag">{{ article.categorie.libelle }}</a>
                         </div>
-                        <h3><a href="#">{{ article.titre}}</a></h3>
+                        <h3><a href="{{ url('index_article',{'libellecategorie': article.categorie.libelle |slugify,
+                                'slugarticle':article.titre | slugify,
+                                'id' : article.id |slugify })}}">{{ article.titre}}</a></h3>
                         <div class="meta-post">
                             <a href="#">
                                 {{ article.auteur.prenom ~ ' ' ~ article.auteur.nom }}
@@ -76,6 +81,7 @@
     </div>
     
     {#Sidebar#}
-    {% include 'components/_sidebar.html.twig' %}
+    {{ render(controller('App\\Controller\\TechNews\\IndexController::sidebar')) }}
+    {#{% include 'components/_sidebar.html.twig.' %}#}
 {% endblock %}
 

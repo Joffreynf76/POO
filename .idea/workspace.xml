@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ace8663-163c-494a-928c-8b138f29f4b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Symfony/08-LES FORMULAIRES.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/services.yaml" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/config/services.yaml" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/ArticleController.php" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/ArticleController.php" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/src/Controller/TechNews/IndexController.php" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_nav.html.twig" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/components/_sidebar.html.twig" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/article.html.twig" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/categorie.html.twig" />
-      <change beforePath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" afterPath="$PROJECT_DIR$/Symfony/02-TechNews-Sf/my-project/templates/index/index.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -217,7 +208,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="288" />
     <option name="y" value="244" />
     <option name="width" value="1238" />
@@ -429,7 +420,7 @@
       <workItem from="1519115257573" duration="23334000" />
       <workItem from="1519201896370" duration="21153000" />
       <workItem from="1519288367846" duration="17198000" />
-      <workItem from="1519374549021" duration="8000" />
+      <workItem from="1519374549021" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="intro">
       <created>1518428000259</created>
@@ -638,11 +629,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190762000" />
+    <option name="totallyTimeSpent" value="191207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
